@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1efef;
+    overflow-x: hidden;
+}
+#saylani_logo{
+    width: 300px;
+    height: 60px;
+    position: relative;
+    margin-top: -15%;
+    padding:20px;
+}
+#navigation{
+    margin-left: 23%;
+    border-bottom: 1px solid rgb(240, 240, 240);;
+    height: 9vh;
+    padding-top: 4px;
+    width: 100%;
+
+}
+#navigation ul li{
+    list-style-type: none;
+    display: inline-block; 
+    padding:10px 10px;
+    padding-left: 30px;
+    margin-top: -2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:16px;
+    font-weight:600;
+    line-height:18.5px;
+    transition: 0.5s; 
+}
+
+#navigation ul li:hover{
+    background-color: blue;
+    font-weight: blue;
+}
+
+.slider{
+  height: 300px;
+  background-size: 100%;
+  background-image: url("./images/web1.jpeg"); 
+  background-repeat: no-repeat;
+  animation: slide 10s infinite; 
+   
+}
+
+@keyframes slide{
+
+    25%{
+        background-image: url("./images/web2.png");
+    }
+    50%{
+        
+        background-image: url("./images/web3.jpg");
+    }
+    75%{
+      
+        background-image: url("https://www.saylaniwelfare.com/uploads/2018-29-111543484480.jpg");
+    }
+}
+
+#first_div{
+    background-color: rgb(19, 19, 219);
+    height: 6.5vh;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+#social_icons{
+    margin-left: 4%;
+}
+
+#header_para{
+    color: white;
+    margin-left: 7%;
+    font-size: 18px;
+}
+input[type=button]{
+    font-size: 13px;
+    height: 25px;
+    color: green;
+    border: 1px solid green;
+}
+#para{
+    margin-left: 12%;
+    margin-right: 12%;
+    color: #666666;
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+}
+h1{
+    font-family: Merriweather, serif;;
+    font-size: 27.2px;
+    color: blue;
+}
+#counting{
+   
+    height: 250px;
+    background-color: rgb(19, 19, 219);
+    color: white;
+}
+
+#monthly{
+    color: rgb(0, 255, 0);
+}
+article{
+    
+    display: inline-block;
+    width: 23%;
+    margin-top: 2%;
+    margin-left: 1.6%;
+    text-align: center;
+}
+h2{
+    font-size: 42px;
+}
+h4{
+    margin-top: -5%;
+}
+#image{
+    width: 15%;
+    height: 15%;
+}
+
+#card{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+section{
+    margin-left: 2%;
+    display: inline-block;
+    width: 30%;
+    color: #316DC3;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: white;
+}
+section img{
+    width: 20%;
+    height: 20%;
+}
+#projects{
+    background-color: white;
+}
+
+#projects1{
+    margin-left: 3.5%;
+}
+
+#s1{
+    width: 25%;
+    height: 8vh;
+    font-size: 15px;
+    margin-left: 3.5%;
+    padding-left: 20px;
+    background-color: rgb(226, 224, 220);
+}
+#s1 img{
+    width: 6%;
+    height: 3vh;
+}
+
+#imageGallery img{
+  
+    width: 20%;
+    height: 20%;
+    
+}
+#imageGallery img:hover{
+    transition: 0.5s;
+    opacity: 0.4;
+}
+#contact{
+    background-color: #353232;
+    width: 100%;
+    height: 40vh;
+}
+#contact_info{
+    width: 30%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    text-align: justify;
+    margin-left: 10%;
+    line-height: 1.9;
+    font-size: 16px;
+    color: white;
+}
+
+#contactUS{
+    padding-left: 65%;
+    position: relative;
+    margin-top: -20%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.copyright{
+    background-color: blue;
+    padding:7px;
+    padding-left: 40px;
+    color: white;
+    font-size: 14px;
+}
+
+.side{
+    padding-left: 65%;
+    position: relative;
+    margin-top: -15%;
+    text-align: justify;
+}
+
+.side_heading{
+    font-family: Merriweather, serif;
+    font-size: 24px;
+    color: blue;
+}
+.side_para{
+    margin-top: -3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border: 1px solid #dbd7d7;
+    padding-left: 10px;
+    margin-right: 6%;
+    line-height:23.8px;
+}
+
