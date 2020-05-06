@@ -51,7 +51,7 @@ input[type=button]{
     
 }
 
-.fa-facebook {
+    .fa-facebook {
     
     background-color: rgb(19, 19, 219);
     color: white;
@@ -75,7 +75,15 @@ input[type=button]{
   }
     
 
+#slider_after{
 
+    background-color: rgb(19, 19, 219);
+    width: 1200px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+
+}
 #para{
     margin-left: 12%;
     margin-right: 12%;
@@ -84,6 +92,17 @@ input[type=button]{
     line-height: 1.6;
     text-align: justify;
 }
+
+.title-icon::before{
+
+content: "";
+height: 2px;
+position: absolute;
+right: 10px;
+top: 30px;
+width: 36px;
+}
+
 h1{
     font-family: Merriweather, serif;;
     font-size: 27.2px;
@@ -194,6 +213,7 @@ h2{
     background-color: blue;
     padding:10px;
     padding-left: 110px;
+    width: 100%;
     color: white;
     font-size: 14px;
 }
