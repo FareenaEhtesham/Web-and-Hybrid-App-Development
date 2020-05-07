@@ -1,0 +1,47 @@
+
+
+#reg_body{
+    background-color: blueviolet;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+#reg_heading{
+    color: blueviolet;
+    font-size: 27px;
+    font-weight: 900;
+}
+
+form{
+    color: white;
+    padding: 50px;
+}
+label{
+   width: 140px;
+    display: inline-block;
+}
+
+
+
+#GO{
+    color: blueviolet;
+
+font-size: 43px;
+
+text-decoration: underline;
+}
+
+#Thankyou{
+    color: green;
+    font-size: 35px;
+    font-weight: 800;
+
+}
+
+#line{
+    color: blueviolet;
+    font-size: 31px;
+
+
+}
