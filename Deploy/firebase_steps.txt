@@ -1,0 +1,27 @@
+
+Add project
+
+
+Open Nodejs.org
+Download Stable/Recommended version
+Install
+
+
+Open CMD with using run as administrator
+Check for node version 
+Check for npm version 
+Install firebase using (npm install --global firebase-tools)
+firebase --version
+
+
+firebase login
+firebase init
+Use Existing Project
+Make Public Folder
+Replace index.html with your web files
+firebase deploy
+
+
+
+
+
