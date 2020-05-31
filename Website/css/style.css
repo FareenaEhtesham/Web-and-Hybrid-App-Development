@@ -8,6 +8,30 @@ body{
     overflow-x: hidden;
 }
 
+.animated {
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+  }
 .main_heading{
 
     text-align: center;
@@ -27,14 +51,13 @@ body{
     font-family: 'Playfair Display', serif;
     font-size: 16px;
     line-height: 28px;
-    font-style: italic;
     
 }
 
 .div_image{
     align-items: center;
-    width: 55%;
-    height: 40%;
+    width: 40%;
+    height: 20%;
 }
 
 #z1{
@@ -66,41 +89,15 @@ body{
    
 }
 
-#about{
-
-    background-color: rgb(245, 115, 136);
-    width: 50%;
-    height: 55vh;
-    margin-left: 25%;
-}
-
 .about_para{
-    color: white;
     text-align: justify;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: -12%;
-    font-size: 16px;
-    line-height: 1.5;
-}
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 19px;
+    line-height: 35px;
+    font-weight: 500;
 
-#inner{
-    position: relative;
-    right: 21%;
-    top: 30%;
-    background-color: white;
-    height: 20vh;
-    width: 30%;
-    border: 4px solid  rgb(245, 115, 136);
 }
-
-.fit-image{
-   
-        width: 100%;
-        object-fit: cover;
-      
-}
-
 .powered_para{
 
     font-size: 13px;
@@ -115,8 +112,9 @@ body{
 
 #logo{
     margin-left: 3%;
-    width: 9%;
+    width: 5%;
 }
+
 .navbar{
     border-bottom: 1px solid purple;
 }
@@ -175,3 +173,66 @@ body{
     text-align: center;
     padding-bottom: 33px;
   }
+
+.slide_image{
+    border-radius: 50%;
+    width : 200px;
+    height:200px;
+    border: 4px solid white;
+
+}
+
+.slide_para{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: "Source Sans Pro Light ","Source Sans Pro";
+    font-weight: bold;
+}
+
+.team{
+    background-color: blue;
+}
+
+.service_image{
+    width: 30%;
+    height: 30%;
+}
+
+#posts{
+    margin-left: 3%;
+}
+
+#posts h4{
+    font-weight: bold;
+    
+}
+
+#posts h2{
+    font-family: Source Sans Pro Light , Source Sans Pro;
+    font-size: 2.4rem;
+    line-height: 1.6;
+    letter-spacing: -0.054em;
+    font-style: italic;
+}
+
+#posts p{
+   text-align: justify;
+   margin-right: 9%;
+   margin-left: 6%;
+}
+
+.join{
+    margin-left: 3%;
+}
+
+.join h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.join button{
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
