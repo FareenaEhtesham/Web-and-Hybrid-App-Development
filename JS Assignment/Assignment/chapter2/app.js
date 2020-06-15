@@ -4,7 +4,7 @@
 let username;
 
 // 2.
-let myName = 'Midha';
+let myName = 'Fareena';
 
 // 3.
 let message;
@@ -28,7 +28,7 @@ alert(result);
 
 
 // 6.
-let email = "midhatahirkhan2011[at]gmail.com";
+let email = "fareena2011[at]gmail.com";
 alert(`My email address is ${email}`);
 
 // 7.
