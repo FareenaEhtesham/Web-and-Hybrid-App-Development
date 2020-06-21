@@ -21,8 +21,8 @@
 
 //TASK 3
 // var no = prompt("Enter a number:");
-// var absol = Math.abs(no);
-// alert(" The absolute value of " + " " + no +" " + "is " + " " +absol);
+// var no2 = Math.abs(no);
+// alert(" The absolute value of " + " " + no +" " + "is " + " " +no2);
 
 //TASK 4
 // var dice = Math.random()*6;
@@ -31,20 +31,20 @@
 
 //TASK 5
 // var toss = Math.random()*2;
-// var ans = Math.ceil(toss);
-// if(ans===2)
+// var answer = Math.ceil(toss);
+// if(answer===2)
 // {
 //     alert("Random coin value: Heads");
 // }
-// if(ans===1)
+// if(answer===1)
 // {
 //     alert("Random coin value: Tails");
 // }
 
 //TASK 6
 // var random = Math.random()*100;
-// var numberr = Math.ceil(random);
-// alert("Random number between 1 and 100: " + " " + numberr);
+// var number = Math.ceil(random);
+// alert("Random number between 1 and 100: " + " " + number);
 
 //TASK 7
 // var kg = prompt("Enter your weight in kilograms:");
@@ -52,9 +52,9 @@
 
 //TASK 8
 // var secret = Math.random()*10;
-// var secretno = Math.ceil(secret);
+// var secretnum = Math.ceil(secret);
 // var numb = prompt ("Enter a number between 1 and 10:");
-// if (numb == secretno){
+// if (numb == secretnum){
 //     alert("Congratulations! You guessed it right! ")
 // }
 // else{
