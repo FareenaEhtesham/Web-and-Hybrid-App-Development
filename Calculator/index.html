@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+
+    <center>
+    <h1 style="font-weight: bold;margin-top: 2%;font-size: 40px;">CALCULATOR</h1>
+    </center>
+
+<div class="calculator card">
+
+    <input type="text" id="result" class="calculator-screen" />
+
+    <div class="calculator-keys">
+
+      <button type="button" onclick="takeNumber('+')" class="operator btn btn-info" >+</button>
+      <button type="button" onclick="takeNumber('-')" class="operator btn btn-info" >-</button>
+      <button type="button" onclick="takeNumber('*')" class="operator btn btn-info" >*</button>
+      <button type="button" onclick="takeNumber('/')" class="operator btn btn-info" >/</button>
+
+      <button type="button" onclick="takeNumber('7')" class="btn btn-light waves-effect">7</button>
+      <button type="button" onclick="takeNumber('8')" class="btn btn-light waves-effect">8</button>
+      <button type="button" onclick="takeNumber('9')" class="btn btn-light waves-effect">9</button>
+
+
+      <button type="button" onclick="takeNumber('4')" class="btn btn-light waves-effect">4</button>
+      <button type="button" onclick="takeNumber('5')" class="btn btn-light waves-effect">5</button>
+      <button type="button" onclick="takeNumber('6')" class="btn btn-light waves-effect">6</button>
+
+
+      <button type="button" onclick="takeNumber('1')" class="btn btn-light waves-effect">1</button>
+      <button type="button" onclick="takeNumber('2')" class="btn btn-light waves-effect">2</button>
+      <button type="button" onclick="takeNumber('3')" class="btn btn-light waves-effect">3</button>
+
+
+      <button type="button" onclick="takeNumber('0')"  class="btn btn-light waves-effect">0</button>
+      <button type="button" onclick="takeNumber('.')" class=" function btn btn-light">.</button>
+      <button type="button" onclick="Clear()" class=" function btn btn-success btn-sm" >AC</button>
+
+      <button type="button" onclick="Answer()" class="equal-sign operator btn btn-info" >=</button>
+
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
